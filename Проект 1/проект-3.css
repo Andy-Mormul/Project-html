@@ -1,0 +1,18 @@
+body{
+  background-color:#5ff338;
+ 
+}
+header{
+  text-align:center;
+}
+nav{
+  float:left;
+  text-transform:uppercase;
+  background-color:#43a441;
+}
+@media screen{
+  
+}
+iframe{
+  display:flex;
+}

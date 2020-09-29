@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Опитування</title>
+  <link rel="stylesheet" href="Проект-2.css" />
+  </head>
+<body>
+  <main>
+   <h1 id="title">Опитування</h1>
+   <h2> <p id="description">Зараз ми пройдемо загальне опитування українців в наукових цілях</p></h2>
+    <form id="survey-form">
+       <div class="container"><label id="name-label">Імя:<input placeholder="Введіть Імя" id="name" type="text" required/></label></div>
+      <div class="container"><label id="email-label">Email:<input placeholder="Введіть електронний адрес" id="email" type="email" required/></label></div>
+      <div class="container"><label id="number-label">Вік:<input placeholder="Вік" id="number" type="number"  min="12" max="99" required/></label></div>
+      <div class="container">
+        <select id="dropdown">
+          <option value="">Працівник</option>
+          <option value="">Учень/Студент </option>
+          <option value="">Викладач</option>
+        <option value="">Безробітний</option>
+        </select>
+        <div class="container">
+          <h3>Чи задоволенні Ви освітою в своїх містах/областях</h3>
+        <label value="1">Так<input name="rando" value="1" type="radio"></label>
+          <label  value="2">Ні<input name="rando" value="2" type="radio"></label>
+          <div class="container">
+            <h3>Чи вважаєте Ви що україньска освіта йде в рівень з освітою в інших країнах</h3>
+        <label  name="Check" >Так<input value="Box1" type="checkbox"></label>
+          <label  name="Check">Ні<input value="Box2" type="checkbox"></label>
+            <div class="container">
+              <h2>Просимо написати Вас відгук про наше опитування та написати власні рекомендації нам,дякую!</h2>
+       <textarea name="" cols="60" rows="7"></textarea>
+        </div>
+       <div class="container">
+         <button id="submit">Надіслати</button>
+         </div>
+   
+        </div>
+        </div>
+      </div>
+      </form>
+  </main>
+  
+</body>
+  </html>

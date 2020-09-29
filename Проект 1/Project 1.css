@@ -1,0 +1,9 @@
+main {
+  text-aligh: center;
+  background-color: #fe933a;
+}
+img {
+  max-width: 87%;
+  margin: auto;
+  display: block;
+}
