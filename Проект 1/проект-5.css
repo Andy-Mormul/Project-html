@@ -1,0 +1,27 @@
+body{
+  background-color:#3b99b0;
+  
+}
+main{
+  background-color:#41caec;
+}
+section{
+  text-align:center;
+}
+@media screen {
+  
+}
+#welcome-section{
+  height:20vh;  
+  background-color: rgb(93, 163, 255);
+}
+nav{
+  position:fixed;
+  top:0;
+  font-size: 20px;
+  color: rgb(7, 5, 139);
+  
+}
+img{
+    float: right;
+}
